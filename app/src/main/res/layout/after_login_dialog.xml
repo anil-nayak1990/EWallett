@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="8dp"
+                android:src="@drawable/money"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:text="My Wallet Money : -"/>
+
+        <TextView
+            android:id="@+id/my_amt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/appTheme"
+            android:text="Rs 2500"/>
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_margin="4dp"
+        android:id="@+id/enter_money"
+        android:visibility="gone"
+        android:hint="Enter Amount"
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:gravity="center|right"
+        android:visibility="visible"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/add_money"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:background="@color/appTheme"
+            android:textColor="@color/colorAccent"
+            android:layout_marginRight="15dp"
+            android:text="Add"/>
+
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@color/appTheme"
+            android:textColor="@color/colorAccent"
+            android:layout_marginLeft="15dp"
+            android:text="Dismiss"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

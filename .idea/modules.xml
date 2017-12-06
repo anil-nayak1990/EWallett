@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EWallet.iml" filepath="$PROJECT_DIR$/EWallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/showcaselibrary/showcaselibrary.iml" filepath="$PROJECT_DIR$/showcaselibrary/showcaselibrary.iml" />
+    </modules>
+  </component>
+</project>

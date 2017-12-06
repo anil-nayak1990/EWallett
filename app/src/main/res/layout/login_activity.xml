@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/e_walle_bg"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/bgof_edittext4"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/user_name"
+                    android:hint="User Id"
+                    android:padding="11dp"
+                    android:gravity="start"
+                    android:singleLine="true"
+                    android:textColorHint="#fff"
+                    android:text=""
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/textcolor"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bgof_edittext4"
+                android:orientation="horizontal">
+
+
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pass_word"
+                    android:hint="Password"
+                    android:padding="11dp"
+                    android:gravity="start"
+                    android:singleLine="true"
+                    android:textColorHint="#fff"
+                    android:textColor="@color/textcolor"
+                    android:background="@android:color/transparent"
+                    android:inputType="textPassword"
+                    />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bgof_edittext4"
+                android:gravity="center"
+                android:elevation="8dp"
+                android:padding="12dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/login_button"
+                android:textColor="#ffffff"
+                android:text="Login"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btn_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            />
+
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+              />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            android:textColor="#fff"
+            android:id="@+id/forgotPass"
+            android:text="Forgot Password? Click Here"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>

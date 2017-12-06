@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "177173826473",
+    "project_id": "ewallet-36214"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177173826473:android:6f6a6c3d5b62d7c4",
+        "android_client_info": {
+          "package_name": "com.aashdit.ewallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177173826473-th14nregm0julfnrsae42cgjuj25fp1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aashdit.ewallet",
+            "certificate_hash": "CD2A938227DAE3D30D64B6ECEE8CE4A37D1AAB8D"
+          }
+        },
+        {
+          "client_id": "177173826473-o5csbkei9gsrofpstk98kuseogcdd0cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcJnM7bKhPjTpldRyFpH7t4BDLxMFOvL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
